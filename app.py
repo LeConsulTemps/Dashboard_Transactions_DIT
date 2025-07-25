@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 # 1. Chargement des données
 @st.cache_data
 def load_data():
-    return pd.read_csv("Transactions_data_complet.csv")
+    return pd.read_csv("Transactions_dataset_Exam.csv")
 
 df = load_data()
 
